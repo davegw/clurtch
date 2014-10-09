@@ -127,6 +127,7 @@ if [ -e "$DEPLOYMENT_TARGET/bower.json" ]; then
   cd - > /dev/null
 fi
 
+
 # 5. Run gulp
 if [ -e "$DEPLOYMENT_TARGET/gulpfile.js" ]; then
   cd "$DEPLOYMENT_TARGET"
